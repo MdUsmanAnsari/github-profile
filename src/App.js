@@ -31,6 +31,7 @@ const  App = () => {
                profileCreatedTime : data.created_at
 
           }
+          setUsername('')
           setStatus('success')
           setUser(userData)
       }).catch(err =>{
